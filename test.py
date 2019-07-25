@@ -2,9 +2,10 @@ import speech_recognition as sr
 import os
 from gtts import gTTS
 r = sr.Recognizer()
-welcome="હું એક છોકરી છું"
+# welcome="Te tamne joi rahyo che"
+welcome="Tē tamanē jō'ī rahyō chē"
 # welcome="સુપ્રભાત"
-tts0=gTTS(welcome,lang='bn')
+tts0=gTTS(welcome,lang='hi')
 tts0.save('welcome.mp3')
 os.system("welcome.mp3")
 
